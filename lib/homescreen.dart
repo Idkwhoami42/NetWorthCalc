@@ -78,8 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             );
                           } else if (index <= assetsList.length) {
                             final String name = assetsList[index - 1];
-                            var _controller = TextEditingController();
-                            bool focused = false;
+                            final _controller = TextEditingController();
                             return Padding(
                               padding: const EdgeInsets.only(top: 21),
                               child: TextButton(
